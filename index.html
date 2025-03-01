@@ -1,23 +1,130 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style.css">
+    <title>ViizzysVibes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- HEADER -->
     <header>
-        <h1>Bem-vindo ao Meu Site</h1>
+        <div class="logo">VIIZZYSVIBES</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tracks</a></li>
+                <li><a href="#licence_info">License</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <!-- BeatStars Player Embed -->
-        <iframe src="https://www.beatstars.com/embed/beat/XXXXX" width="100%" height="400" frameborder="0"></iframe>
-    </main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1></h1> 
+    </section>
 
+    <!-- TRACK LIST -->
+    <section class="tracks">
+        <h2>Track List</h2>
+        <iframe src="https://player.beatstars.com/?storeId=146467" width="100%" height="800" style="max-width:1280px;"> -- none -- </iframe>
+    </section>
+
+    <!-- LICENSING SECTION -->
+    <section class="licensing" id="licence_info">
+        <h2>Licensing Info</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3>No Exclusive (MP3)</h3>
+                <p class="price">$29.95</p>
+                <ul>
+                    <li>Use for music recording</li>
+                    <li>Distribute up to 2,000 copies</li>
+                    <li>500,000+ online audio streams</li>
+                    <li>1 music video</li>
+                    <li>Live performances allowed</li>
+                    <li>Radio broadcasting rights (2 stations)</li>
+                </ul>
+                <button>View License</button>
+            </div>
+
+            <div class="plan">
+                <h3>Extended</h3>
+                <p class="price">$49.95</p>
+                <ul>
+                    <li>Use for music recording</li>
+                    <li>Distribute up to 5,000 copies</li>
+                    <li>500,000+ online audio streams</li>
+                    <li>1 music video</li>
+                    <li>Live performances allowed</li>
+                    <li>Radio broadcasting rights (5 stations)</li>
+                </ul>
+                <button>View License</button>
+            </div>
+
+            <div class="plan">
+                <h3>Premium (Trackouts)</h3>
+                <p class="price">$149.95</p>
+                <ul>
+                    <li>Use for music recording</li>
+                    <li>Distribute up to 10,000 copies</li>
+                    <li>500,000+ online audio streams</li>
+                    <li>1 music video</li>
+                    <li>Live performances allowed</li>
+                    <li>Radio broadcasting rights (10 stations)</li>
+                </ul>
+                <button>View License</button>
+            </div>
+
+            <div class="plan">
+                <h3>Unlimited</h3>
+                <p class="price">$199.95</p>
+                <ul>
+                    <li>Use for music recording</li>
+                    <li>Unlimited distribution</li>
+                    <li>500,000+ online audio streams</li>
+                    <li>Unlimited music videos</li>
+                    <li>Live performances allowed</li>
+                    <li>Unlimited radio broadcasting rights</li>
+                </ul>
+                <button>View License</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Message"></textarea>
+            <div class="button-container">
+                <button type="submit">Send a Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2025 Meu Nome. Todos os direitos reservados.</p>
+        <div class="footer-content">
+            <div class="footer-logo">VIBES</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tracks</a></li>
+                    <li><a href="#licence_info">License</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>&copy; 2025 ViizzysVibes - All rights reserved.</p>
     </footer>
+
 </body>
 </html>
