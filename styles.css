@@ -49,7 +49,6 @@
 @media (max-width: 768px) {
     section.tracks h2 {
         font-size: 30px;
-        border: 1px solid green;
     }
     .tracks iframe {
         height: 500px;
