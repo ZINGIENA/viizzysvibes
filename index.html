@@ -147,12 +147,12 @@
        }
          const trackId = getParam("trackId");
          const contaIner = document.getElementById("player-container");
-         const fullUrl = "https://player.beatstars.com/?storeId=146467&type=track&id="+ trackId; 
+         const fullUrl = "https://player.beatstars.com/?storeId=146467&type=track&id="+trackId; 
          
          
         // Player featured beat 
          if(trackId) {
-            const texto = '<iframe src='fullUrl+' width="100%" height="800" style="max-width:1280px;"> -- none -- </iframe>';
+            const texto = '<iframe src='+fullUrl+' width="100%" height="800" style="max-width:1280px;"> -- none -- </iframe>';
              console.log(texto)
          } else {
              console.log("nao deu")
