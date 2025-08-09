@@ -10,6 +10,12 @@
             const menu = document.getElementById("menu");
             menu.classList.toggle("active");
         }
+        // Função para pegar parâmetro da URL
+        function getParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+        console.log(urlParams)
     </script>
 </head>
 <body>
