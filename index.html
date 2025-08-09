@@ -149,8 +149,13 @@
          const container = document.getElementById("player-container");
          const fullUrl = "https://player.beatstars.com/?storeId=146467&type=track&id="+ trackId; 
          
-         console.log(fullUrl)
+         
         // Player featured beat 
+         if(trackId) {
+             console.log(fullUrl)
+         } else {
+             console.log("nao deu")
+         }
      </script>   
         
            
